@@ -57,37 +57,37 @@ header .navbar .down ul li i {
   font-size: 14px;
 }
 
-main section {
+main .jumbo {
   background-image: url("../img/bg-painter-home.jpg");
   padding: 0 15%;
   background-position: center;
   background-repeat: no-repeat;
   height: 400px;
 }
-main section .left-part {
+main .jumbo .left-part {
   width: 40%;
   height: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
-main section .left-part img {
+main .jumbo .left-part img {
   width: 250px;
 }
-main section .left-part p {
+main .jumbo .left-part p {
   margin: 20px 0;
   font-size: 20px;
 }
-main section .left-part span {
+main .jumbo .left-part span {
   margin: 20px 0;
   color: #c5156d;
   font-weight: bold;
   font-style: italic;
 }
-main section .left-part span label {
+main .jumbo .left-part span label {
   font-weight: normal;
 }
-main section .left-part button {
+main .jumbo .left-part button {
   font-size: 16px;
   padding: 10px 25px;
   border: 1px solid black;
@@ -95,8 +95,56 @@ main section .left-part button {
   background-color: black;
   color: white;
 }
-main section .left-part button:last-child {
+main .jumbo .left-part button:last-child {
   background-color: transparent;
   color: #000;
   border-width: 2px;
+}
+main .paintings {
+  background-color: lightgray;
+}
+main .paintings .upper-part-painting {
+  padding: 0 15%;
+  margin-bottom: 50px;
+}
+main .paintings .upper-part-painting p {
+  text-align: center;
+  padding: 30px 0;
+  font-size: 30px;
+}
+main .paintings .upper-part-painting .paintings-container {
+  display: flex;
+}
+main .paintings .upper-part-painting .paintings-container .upper-paintings {
+  width: 350px;
+  float: left;
+  margin: 0 auto;
+  background-color: #fff;
+}
+main .paintings .upper-part-painting .paintings-container .upper-paintings img {
+  width: 350px;
+  height: 150px;
+}
+main .paintings .upper-part-painting .paintings-container .upper-paintings .text-info {
+  padding: 15px 10px;
+}
+main .paintings .upper-part-painting .paintings-container .upper-paintings .text-info label {
+  color: #00b7ff;
+  font-weight: bold;
+}
+main .paintings .upper-part-painting .paintings-container .upper-paintings .text-info span {
+  color: #000;
+  font-weight: bold;
+}
+main .paintings .upper-part-painting .paintings-container .upper-paintings .text-info p {
+  font-size: 17px;
+  text-align: left;
+}
+main .paintings .upper-part-painting .paintings-container .upper-paintings .text-info a {
+  color: #00b7ff;
+  text-decoration: none;
+}
+main .paintings .info-paintings {
+  padding: 0 15%;
+  height: 500px;
 }

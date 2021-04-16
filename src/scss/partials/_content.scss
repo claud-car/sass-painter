@@ -1,5 +1,5 @@
 main{
-    section{
+    .jumbo{
         background-image: url('../img/bg-painter-home.jpg');
         padding:$margin-page;
         background-position: center;
@@ -41,6 +41,54 @@ main{
                 }
             }
             
+        }
+    }
+    .paintings{
+        background-color: lightgray;
+        .upper-part-painting{
+            padding: $margin-page;
+            margin-bottom: 50px;
+            p{
+                text-align: center;
+                padding: 30px 0;
+                font-size: 30px;
+            }
+            .paintings-container{
+                display: flex;
+                .upper-paintings{
+                    width: 350px;
+                    float: left;
+                    margin: 0 auto;
+                    background-color: #fff;
+                    img{
+                        width: 350px;
+                        height: 150px;
+                    }
+                    .text-info{
+                        padding: 15px 10px;
+                        label{
+                            color:rgb(0, 183, 255);
+                            font-weight: bold;
+                        }
+                        span{
+                            color: #000;
+                            font-weight: bold;
+                        }
+                        p{
+                            font-size: 17px;
+                            text-align: left;
+                        }
+                        a{
+                            color: rgb(0, 183, 255);
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+        .info-paintings{
+            padding: $margin-page;
+            height: 500px;
         }
     }
 }
