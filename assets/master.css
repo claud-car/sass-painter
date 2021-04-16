@@ -5,10 +5,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: lightgrey;
-}
-
 header {
   background-color: black;
   padding: 0 15%;
@@ -62,6 +58,45 @@ header .navbar .down ul li i {
 }
 
 main section {
-  background-image: url(/images/bg-painter-home.jpg?4a1f2090e3cf4d0ad188b99adeb6cd44);
-  height: 500px;
+  background-image: url("../img/bg-painter-home.jpg");
+  padding: 0 15%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+main section .left-part {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+main section .left-part img {
+  width: 250px;
+}
+main section .left-part p {
+  margin: 20px 0;
+  font-size: 20px;
+}
+main section .left-part span {
+  margin: 20px 0;
+  color: #c5156d;
+  font-weight: bold;
+  font-style: italic;
+}
+main section .left-part span label {
+  font-weight: normal;
+}
+main section .left-part button {
+  font-size: 16px;
+  padding: 10px 25px;
+  border: 1px solid black;
+  margin-right: 20px;
+  background-color: black;
+  color: white;
+}
+main section .left-part button:last-child {
+  background-color: transparent;
+  color: #000;
+  border-width: 2px;
 }
