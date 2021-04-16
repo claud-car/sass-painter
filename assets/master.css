@@ -1,3 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
 body {
+  background-color: lightgrey;
+}
+
+header {
   background-color: black;
+  padding: 0 15%;
+}
+header .navbar .upper {
+  display: flex;
+  justify-content: flex-end;
+  height: 50px;
+  align-items: center;
+  color: grey;
+}
+header .navbar .upper button {
+  background-color: black;
+  margin: 0 10px;
+  color: grey;
+  font-size: 16px;
+}
+header .navbar .upper button:hover {
+  cursor: pointer;
+}
+header .navbar .upper button i {
+  color: #00b7ff;
+  font-size: 14px;
+}
+header .navbar .upper select {
+  margin-left: 10px;
+  padding-right: 8px;
+}
+header .navbar .down {
+  display: flex;
+  color: #FFF;
+}
+header .navbar .down img {
+  margin-right: 20px;
+}
+header .navbar .down ul {
+  width: 80%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+header .navbar .down ul li:hover {
+  cursor: pointer;
 }
