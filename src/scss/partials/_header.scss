@@ -29,6 +29,7 @@ header{
         .down{
             display: flex;
             color: #FFF;
+            padding: 10px;
             img{
                 margin-right: 20px;
             }
@@ -41,7 +42,11 @@ header{
                 justify-content: space-around;
                 li{
                     &:hover{
-                        cursor: pointer;
+                        cursor: pointer;                       
+                    }
+                    i{
+                        color: grey;
+                        font-size: 14px;
                     }
                 }
             }
