@@ -57,6 +57,9 @@ header .navbar .down ul li i {
   font-size: 14px;
 }
 
+main {
+  background-color: lightgray;
+}
 main .jumbo {
   background-image: url("../img/bg-painter-home.jpg");
   padding: 0 15%;
@@ -100,9 +103,6 @@ main .jumbo .left-part button:last-child {
   color: #000;
   border-width: 2px;
 }
-main .paintings {
-  background-color: lightgray;
-}
 main .paintings .upper-part-painting {
   padding: 0 15%;
   margin-bottom: 50px;
@@ -144,7 +144,60 @@ main .paintings .upper-part-painting .paintings-container .upper-paintings .text
   color: #00b7ff;
   text-decoration: none;
 }
-main .paintings .info-paintings {
+main .info-paintings {
   padding: 0 15%;
-  height: 500px;
+  height: 900px;
+}
+main .info-paintings .info-container {
+  float: left;
+  width: 50%;
+  height: 300px;
+  color: #fff;
+}
+main .info-paintings .info-container img {
+  width: 100%;
+  height: 300px;
+}
+main .info-paintings .info-container .img-absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+main .info-paintings .info-container p {
+  font-size: 25px;
+  margin: 15px 0;
+  margin-top: 30px;
+}
+main .info-paintings .info-container span {
+  font-size: 20px;
+}
+main .info-paintings .info-container button {
+  display: block;
+  margin: 25px 0;
+  padding: 10px 25px;
+  outline: none;
+  background-color: #fff;
+}
+main .info-paintings .pos-rel {
+  position: relative;
+}
+main .info-paintings #bkg-img {
+  background-image: url("../img/wacom-painter.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .info-paintings .purple-info-container {
+  background-color: #4b0d7e;
+  padding: 30px;
+}
+main .info-paintings .grey-info-container {
+  background-color: #4d4d4d;
+  padding: 30px;
+}
+main .info-paintings .blue-info-container {
+  background-color: #006ace;
+  padding: 30px;
 }
