@@ -65,7 +65,7 @@ main .jumbo {
   padding: 0 15%;
   background-position: center;
   background-repeat: no-repeat;
-  height: 400px;
+  height: 500px;
 }
 main .jumbo .left-part {
   width: 40%;
@@ -126,7 +126,7 @@ main .paintings .upper-part-painting .paintings-container .upper-paintings img {
   height: 150px;
 }
 main .paintings .upper-part-painting .paintings-container .upper-paintings .text-info {
-  padding: 15px 10px;
+  padding: 15px 15px;
 }
 main .paintings .upper-part-painting .paintings-container .upper-paintings .text-info label {
   color: #00b7ff;
@@ -200,4 +200,98 @@ main .info-paintings .grey-info-container {
 main .info-paintings .blue-info-container {
   background-color: #006ace;
   padding: 30px;
+}
+
+footer .footer-container {
+  padding: 0 15%;
+  height: 360px;
+}
+footer .footer-container .info-footer {
+  float: left;
+  width: 25%;
+}
+footer .footer-container .info-footer ul {
+  list-style: none;
+  margin: 50px 0;
+}
+footer .footer-container .info-footer ul li {
+  padding: 5px 20px;
+  color: gray;
+}
+footer .footer-container .info-footer ul li:hover {
+  cursor: pointer;
+}
+footer .footer-container .info-footer ul .header-list {
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 10px;
+  color: #000;
+}
+footer .footer-container .info-footer ul .header-list:hover {
+  cursor: text;
+}
+footer .footer-container .info-footer .socials {
+  font-size: 35px;
+  padding-left: 20px;
+}
+footer .footer-container .info-footer .socials .fa-instagram-square {
+  color: #E85E67;
+}
+footer .footer-container .info-footer .socials .fa-instagram-square:hover {
+  cursor: pointer;
+}
+footer .footer-container .info-footer .socials .fa-facebook-square {
+  color: #395693;
+}
+footer .footer-container .info-footer .socials .fa-facebook-square:hover {
+  cursor: pointer;
+}
+footer .footer-container .info-footer .socials .fa-twitter-square {
+  color: #1C9CEA;
+}
+footer .footer-container .info-footer .socials .fa-twitter-square:hover {
+  cursor: pointer;
+}
+footer .footer-container .info-footer .socials .fa-youtube-square {
+  color: #F60002;
+}
+footer .footer-container .info-footer .socials .fa-youtube-square:hover {
+  cursor: pointer;
+}
+footer .footer-container .info-footer .socials .fa-pinterest-square {
+  color: #B7081B;
+}
+footer .footer-container .info-footer .socials .fa-pinterest-square:hover {
+  cursor: pointer;
+}
+footer .footer-container .info-footer .socials .fa-rss-square {
+  color: #F6C500;
+}
+footer .footer-container .info-footer .socials .fa-rss-square:hover {
+  cursor: pointer;
+}
+footer .copyright-info {
+  padding: 0 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #242424;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+footer .copyright-info img {
+  height: 50px;
+  padding-left: 20px;
+}
+footer .copyright-info .copyright-text {
+  font-size: 14px;
+}
+footer .copyright-info .copyright-text a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: grey;
+}
+footer .copyright-info .copyright-text span {
+  color: #fff;
+  margin: 0 10px;
 }
