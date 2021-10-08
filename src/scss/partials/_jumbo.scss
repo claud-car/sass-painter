@@ -1,0 +1,52 @@
+.jumbo{
+    background-image: url('../img/bg-painter-home.jpg');
+    padding:$margin-page;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+
+    &__content{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+
+        img{
+            width: 250px;
+        }
+
+        p{
+            margin:20px 0 ;
+            font-size: 20px;
+        }
+
+        span{
+            margin: 20px 0;
+            color: rgb(197, 21, 109);
+            font-weight: bold;
+            font-style: italic;
+
+            label{
+                font-weight: normal;
+            }
+        }
+
+        button{
+            font-size: 16px;
+            padding: 10px 25px;
+            border: 1px solid black;
+            margin-right:20px;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            
+            &:last-child{
+                background-color: transparent;
+                color: #000;
+                border-width: 2px;
+            }
+        }
+        
+    }
+}

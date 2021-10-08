@@ -9,39 +9,44 @@ header {
   background-color: black;
   padding: 0 15%;
 }
-header .navbar .upper {
+
+main {
+  background-color: lightgray;
+}
+
+.navbar__top {
   display: flex;
   justify-content: flex-end;
   height: 50px;
   align-items: center;
   color: grey;
 }
-header .navbar .upper button {
+.navbar__top button {
   background-color: black;
   margin: 0 10px;
   color: grey;
   font-size: 16px;
 }
-header .navbar .upper button:hover {
+.navbar__top button:hover {
   cursor: pointer;
 }
-header .navbar .upper button i {
+.navbar__top button i {
   color: #00b7ff;
   font-size: 14px;
 }
-header .navbar .upper select {
+.navbar__top select {
   margin-left: 10px;
   padding-right: 8px;
 }
-header .navbar .down {
+.navbar__down {
   display: flex;
   color: #FFF;
   padding: 10px;
 }
-header .navbar .down img {
+.navbar__down img {
   margin-right: 20px;
 }
-header .navbar .down ul {
+.navbar__down ul {
   width: 80%;
   list-style: none;
   display: flex;
@@ -49,228 +54,229 @@ header .navbar .down ul {
   align-items: center;
   justify-content: space-around;
 }
-header .navbar .down ul li:hover {
+.navbar__down ul li:hover {
   cursor: pointer;
 }
-header .navbar .down ul li i {
+.navbar__down ul li i {
   color: grey;
   font-size: 14px;
 }
 
-main {
-  background-color: lightgray;
-}
-main .jumbo {
+.jumbo {
   background-image: url("../img/bg-painter-home.jpg");
   padding: 0 15%;
   background-position: center;
   background-repeat: no-repeat;
   height: 500px;
 }
-main .jumbo .left-part {
+.jumbo__content {
   width: 40%;
   height: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
-main .jumbo .left-part img {
+.jumbo__content img {
   width: 250px;
 }
-main .jumbo .left-part p {
+.jumbo__content p {
   margin: 20px 0;
   font-size: 20px;
 }
-main .jumbo .left-part span {
+.jumbo__content span {
   margin: 20px 0;
   color: #c5156d;
   font-weight: bold;
   font-style: italic;
 }
-main .jumbo .left-part span label {
+.jumbo__content span label {
   font-weight: normal;
 }
-main .jumbo .left-part button {
+.jumbo__content button {
   font-size: 16px;
   padding: 10px 25px;
   border: 1px solid black;
   margin-right: 20px;
   background-color: black;
   color: white;
+  cursor: pointer;
 }
-main .jumbo .left-part button:last-child {
+.jumbo__content button:last-child {
   background-color: transparent;
   color: #000;
   border-width: 2px;
 }
-main .paintings .upper-part-painting {
+
+.paintings {
   padding: 0 15%;
   margin-bottom: 50px;
 }
-main .paintings .upper-part-painting p {
+.paintings p {
   text-align: center;
   padding: 30px 0;
   font-size: 30px;
 }
-main .paintings .upper-part-painting .paintings-container {
+.paintings__offers {
   display: flex;
 }
-main .paintings .upper-part-painting .paintings-container .upper-paintings {
+.paintings__offers--new {
   width: 90%;
   float: left;
   margin: 0 2%;
   background-color: #fff;
 }
-main .paintings .upper-part-painting .paintings-container .upper-paintings img {
+.paintings__offers--new img {
   width: 100%;
   height: 150px;
 }
-main .paintings .upper-part-painting .paintings-container .upper-paintings .text-info {
+.paintings__offers--new .text-info {
   padding: 15px 15px;
 }
-main .paintings .upper-part-painting .paintings-container .upper-paintings .text-info label {
+.paintings__offers--new .text-info label {
   color: #00b7ff;
   font-weight: bold;
 }
-main .paintings .upper-part-painting .paintings-container .upper-paintings .text-info span {
+.paintings__offers--new .text-info span {
   color: #000;
   font-weight: bold;
 }
-main .paintings .upper-part-painting .paintings-container .upper-paintings .text-info p {
+.paintings__offers--new .text-info p {
   font-size: 17px;
   text-align: left;
 }
-main .paintings .upper-part-painting .paintings-container .upper-paintings .text-info a {
+.paintings__offers--new .text-info a {
   color: #00b7ff;
   text-decoration: none;
 }
-main .info-paintings {
+
+.services {
   padding: 0 15%;
   height: 900px;
 }
-main .info-paintings .info-container {
+.services__info {
   float: left;
   width: 50%;
   height: 300px;
   color: #fff;
 }
-main .info-paintings .info-container img {
+.services__info img {
   width: 100%;
   height: 300px;
 }
-main .info-paintings .info-container .img-absolute {
+.services__info .img-absolute {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
 }
-main .info-paintings .info-container p {
+.services__info p {
   font-size: 25px;
   margin: 15px 0;
   margin-top: 30px;
 }
-main .info-paintings .info-container span {
+.services__info span {
   font-size: 20px;
 }
-main .info-paintings .info-container button {
+.services__info button {
   display: block;
   margin: 25px 0;
   padding: 10px 25px;
   outline: none;
   background-color: #fff;
 }
-main .info-paintings .pos-rel {
+.services .pos-rel {
   position: relative;
 }
-main .info-paintings #bkg-img {
+.services #bkg-img {
   background-image: url("../img/wacom-painter.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-main .info-paintings .purple-info-container {
+.services .purple-info-container {
   background-color: #4b0d7e;
   padding: 30px;
 }
-main .info-paintings .grey-info-container {
+.services .grey-info-container {
   background-color: #4d4d4d;
   padding: 30px;
 }
-main .info-paintings .blue-info-container {
+.services .blue-info-container {
   background-color: #006ace;
   padding: 30px;
 }
 
-footer .footer-container {
+.list {
   padding: 0 15%;
   height: 360px;
 }
-footer .footer-container .info-footer {
+.list__info {
   float: left;
   width: 25%;
 }
-footer .footer-container .info-footer ul {
+.list__info ul {
   list-style: none;
   margin: 50px 0;
 }
-footer .footer-container .info-footer ul li {
+.list__info ul li {
   padding: 5px 20px;
   color: gray;
 }
-footer .footer-container .info-footer ul li:hover {
+.list__info ul li:hover {
   cursor: pointer;
 }
-footer .footer-container .info-footer ul .header-list {
+.list__info ul .header-list {
   font-weight: bold;
   font-size: 18px;
   padding-bottom: 10px;
   color: #000;
 }
-footer .footer-container .info-footer ul .header-list:hover {
+.list__info ul .header-list:hover {
   cursor: text;
 }
-footer .footer-container .info-footer .socials {
+.list__info--socials {
   font-size: 35px;
   padding-left: 20px;
 }
-footer .footer-container .info-footer .socials .fa-instagram-square {
+.list__info--socials .fa-instagram-square {
   color: #E85E67;
 }
-footer .footer-container .info-footer .socials .fa-instagram-square:hover {
+.list__info--socials .fa-instagram-square:hover {
   cursor: pointer;
 }
-footer .footer-container .info-footer .socials .fa-facebook-square {
+.list__info--socials .fa-facebook-square {
   color: #395693;
 }
-footer .footer-container .info-footer .socials .fa-facebook-square:hover {
+.list__info--socials .fa-facebook-square:hover {
   cursor: pointer;
 }
-footer .footer-container .info-footer .socials .fa-twitter-square {
+.list__info--socials .fa-twitter-square {
   color: #1C9CEA;
 }
-footer .footer-container .info-footer .socials .fa-twitter-square:hover {
+.list__info--socials .fa-twitter-square:hover {
   cursor: pointer;
 }
-footer .footer-container .info-footer .socials .fa-youtube-square {
+.list__info--socials .fa-youtube-square {
   color: #F60002;
 }
-footer .footer-container .info-footer .socials .fa-youtube-square:hover {
+.list__info--socials .fa-youtube-square:hover {
   cursor: pointer;
 }
-footer .footer-container .info-footer .socials .fa-pinterest-square {
+.list__info--socials .fa-pinterest-square {
   color: #B7081B;
 }
-footer .footer-container .info-footer .socials .fa-pinterest-square:hover {
+.list__info--socials .fa-pinterest-square:hover {
   cursor: pointer;
 }
-footer .footer-container .info-footer .socials .fa-rss-square {
+.list__info--socials .fa-rss-square {
   color: #F6C500;
 }
-footer .footer-container .info-footer .socials .fa-rss-square:hover {
+.list__info--socials .fa-rss-square:hover {
   cursor: pointer;
 }
-footer .copyright-info {
+
+.copyright {
   padding: 0 15%;
   display: flex;
   justify-content: space-between;
@@ -279,19 +285,25 @@ footer .copyright-info {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-footer .copyright-info img {
+.copyright img {
   height: 50px;
   padding-left: 20px;
 }
-footer .copyright-info .copyright-text {
+.copyright__info {
   font-size: 14px;
 }
-footer .copyright-info .copyright-text a {
+.copyright__info a {
   margin: 0 10px;
   text-decoration: none;
   color: grey;
 }
-footer .copyright-info .copyright-text span {
+.copyright__info span {
   color: #fff;
   margin: 0 10px;
+}
+
+@media all and (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
 }

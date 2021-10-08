@@ -1,53 +1,60 @@
-header{
-    background-color: black;
-    padding: $margin-page;
-    .navbar{
-        .upper{
-            display: flex;
-            justify-content: flex-end;
-            height: 50px;
-            align-items: center;
-            color: grey;
-            button{
-                &:hover{
-                    cursor: pointer;
-                }
-                background-color: black;
-                margin: 0 10px;
-                color: grey;
-                font-size: 16px;
-                i{
-                    color: rgb(0, 183, 255);
-                    font-size: 14px;
-                }
+.navbar{
+
+    &__top{
+        display: flex;
+        justify-content: flex-end;
+        height: 50px;
+        align-items: center;
+        color: grey;
+
+        button{
+
+            &:hover{
+                cursor: pointer;
             }
-            select{
-                margin-left: 10px;
-                padding-right: 8px;
+            background-color: black;
+            margin: 0 10px;
+            color: grey;
+            font-size: 16px;
+
+            i{
+                color: rgb(0, 183, 255);
+                font-size: 14px;
             }
         }
-        .down{
+
+        select{
+            margin-left: 10px;
+            padding-right: 8px;
+        }
+    }
+
+    &__down{
+        display: flex;
+        color: #FFF;
+        padding: 10px;
+
+        img{
+            margin-right: 20px;
+        }
+
+        ul{
+            width: 80%;
+            list-style: none;
             display: flex;
-            color: #FFF;
-            padding: 10px;
-            img{
-                margin-right: 20px;
-            }
-            ul{
-                width: 80%;
-                list-style: none;
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: space-around;
-                li{
-                    &:hover{
-                        cursor: pointer;                       
-                    }
-                    i{
-                        color: grey;
-                        font-size: 14px;
-                    }
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+
+            li{
+
+                &:hover{
+                    cursor: pointer;                       
+                }
+                
+                i{
+                    color: grey;
+                    font-size: 14px;
                 }
             }
         }

@@ -1,95 +1,93 @@
-footer{
-    .footer-container{
-        padding: $margin-page;
-        height: 360px; 
-        .info-footer{
-            float: left;
-            width: 25%;  
-            ul{
-                list-style: none;
-                margin: 50px 0;
-                li{
-                    padding: 5px 20px;
-                    color: gray;
-                    &:hover{
-                        cursor: pointer;
-                    }
-                }
-                .header-list{
-                    font-weight: bold;
-                    font-size: 18px;
-                    padding-bottom: 10px;
-                    color: #000;
-                    &:hover{
-                        cursor:text;
-                    }
+.list{
+    padding: $margin-page;
+    height: 360px; 
+    &__info{
+        float: left;
+        width: 25%;  
+        ul{
+            list-style: none;
+            margin: 50px 0;
+            li{
+                padding: 5px 20px;
+                color: gray;
+                &:hover{
+                    cursor: pointer;
                 }
             }
-            .socials{
-                font-size: 35px;
-                padding-left: 20px;
-                .fa-instagram-square{
-                    color: #E85E67;
-                    &:hover{
-                        cursor: pointer;
-                    }
+            .header-list{
+                font-weight: bold;
+                font-size: 18px;
+                padding-bottom: 10px;
+                color: #000;
+                &:hover{
+                    cursor:text;
                 }
-                .fa-facebook-square{
-                    color: #395693;
-                    &:hover{
-                        cursor: pointer;
-                    }
+            }
+        }
+        &--socials{
+            font-size: 35px;
+            padding-left: 20px;
+            .fa-instagram-square{
+                color: #E85E67;
+                &:hover{
+                    cursor: pointer;
                 }
-                .fa-twitter-square{
-                    color: #1C9CEA;
-                    &:hover{
-                        cursor: pointer;
-                    }
+            }
+            .fa-facebook-square{
+                color: #395693;
+                &:hover{
+                    cursor: pointer;
                 }
-                .fa-youtube-square{
-                    color: #F60002;
-                    &:hover{
-                        cursor: pointer;
-                    }
+            }
+            .fa-twitter-square{
+                color: #1C9CEA;
+                &:hover{
+                    cursor: pointer;
                 }
-                .fa-pinterest-square{
-                    color: #B7081B;
-                    &:hover{
-                        cursor: pointer;
-                    }
+            }
+            .fa-youtube-square{
+                color: #F60002;
+                &:hover{
+                    cursor: pointer;
                 }
-                .fa-rss-square{
-                    color: #F6C500;
-                    &:hover{
-                        cursor: pointer;
-                    }
+            }
+            .fa-pinterest-square{
+                color: #B7081B;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+            .fa-rss-square{
+                color: #F6C500;
+                &:hover{
+                    cursor: pointer;
                 }
             }
         }
     }
-    .copyright-info{
-        padding: $margin-page;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: rgb(36, 36, 36);
-        padding-top: 15px;
-        padding-bottom: 15px;
-        img{
-            height: 50px;
-            padding-left: 20px;
+}
+.copyright{
+    padding: $margin-page;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(36, 36, 36);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    img{
+        height: 50px;
+        padding-left: 20px;
+    }
+    &__info{
+        font-size: 14px;
+        a{
+            margin: 0 10px;
+            text-decoration: none;
+            color: grey;    
         }
-        .copyright-text{
-            font-size: 14px;
-            a{
-                margin: 0 10px;
-                text-decoration: none;
-                color: grey;    
-            }
-            span{
-                color: #fff;
-                margin: 0 10px;
-            }
+        span{
+            color: #fff;
+            margin: 0 10px;
         }
     }
 }
