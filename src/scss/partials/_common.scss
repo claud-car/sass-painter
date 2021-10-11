@@ -8,8 +8,59 @@
 header{
     background-color: black;
     padding: $margin-page;
+
+    @media all and (max-width:768px){
+        background-color: rgba(253, 186, 62, 0.849);   
+    }
 }
 
 main{
     background-color: lightgray;
+}
+
+.clr-grey{
+    color:$color-grey;
+}
+
+.clr-lightgrey{
+    color:$color-lightgrey;
+}
+
+button{
+    cursor: pointer;
+}
+
+li{
+    cursor: pointer;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+i{
+    cursor: pointer;
+}
+
+.fa-instagram-square{
+    color: #E85E67;
+}
+
+.fa-facebook-square{
+    color: #395693;
+}
+
+.fa-twitter-square{
+    color: #1C9CEA;
+}
+
+.fa-youtube-square{
+    color: #F60002;
+}
+
+.fa-pinterest-square{
+    color: #B7081B;
+}
+
+.fa-rss-square{
+    color: #F6C500;
 }

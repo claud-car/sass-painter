@@ -9,10 +9,6 @@
             margin: 50px 0;
             li{
                 padding: 5px 20px;
-                color: gray;
-                &:hover{
-                    cursor: pointer;
-                }
             }
             .header-list{
                 font-weight: bold;
@@ -21,48 +17,13 @@
                 color: #000;
                 &:hover{
                     cursor:text;
+                    text-decoration: none;
                 }
             }
         }
         &--socials{
             font-size: 35px;
             padding-left: 20px;
-            .fa-instagram-square{
-                color: #E85E67;
-                &:hover{
-                    cursor: pointer;
-                }
-            }
-            .fa-facebook-square{
-                color: #395693;
-                &:hover{
-                    cursor: pointer;
-                }
-            }
-            .fa-twitter-square{
-                color: #1C9CEA;
-                &:hover{
-                    cursor: pointer;
-                }
-            }
-            .fa-youtube-square{
-                color: #F60002;
-                &:hover{
-                    cursor: pointer;
-                }
-            }
-            .fa-pinterest-square{
-                color: #B7081B;
-                &:hover{
-                    cursor: pointer;
-                }
-            }
-            .fa-rss-square{
-                color: #F6C500;
-                &:hover{
-                    cursor: pointer;
-                }
-            }
         }
     }
 }
@@ -83,7 +44,7 @@
         a{
             margin: 0 10px;
             text-decoration: none;
-            color: grey;    
+            color: $color-lightgrey;    
         }
         span{
             color: #fff;

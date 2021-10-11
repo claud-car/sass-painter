@@ -9,9 +9,61 @@ header {
   background-color: black;
   padding: 0 15%;
 }
+@media all and (max-width: 768px) {
+  header {
+    background-color: rgba(253, 186, 62, 0.849);
+  }
+}
 
 main {
   background-color: lightgray;
+}
+
+.clr-grey {
+  color: #4d4d4d;
+}
+
+.clr-lightgrey {
+  color: grey;
+}
+
+button {
+  cursor: pointer;
+}
+
+li {
+  cursor: pointer;
+}
+li:hover {
+  text-decoration: underline;
+}
+
+i {
+  cursor: pointer;
+}
+
+.fa-instagram-square {
+  color: #E85E67;
+}
+
+.fa-facebook-square {
+  color: #395693;
+}
+
+.fa-twitter-square {
+  color: #1C9CEA;
+}
+
+.fa-youtube-square {
+  color: #F60002;
+}
+
+.fa-pinterest-square {
+  color: #B7081B;
+}
+
+.fa-rss-square {
+  color: #F6C500;
 }
 
 .navbar__top {
@@ -19,16 +71,12 @@ main {
   justify-content: flex-end;
   height: 50px;
   align-items: center;
-  color: grey;
 }
 .navbar__top button {
   background-color: black;
   margin: 0 10px;
   color: grey;
   font-size: 16px;
-}
-.navbar__top button:hover {
-  cursor: pointer;
 }
 .navbar__top button i {
   color: #00b7ff;
@@ -53,9 +101,6 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-}
-.navbar__down ul li:hover {
-  cursor: pointer;
 }
 .navbar__down ul li i {
   color: grey;
@@ -99,7 +144,6 @@ main {
   margin-right: 20px;
   background-color: black;
   color: white;
-  cursor: pointer;
 }
 .jumbo__content button:last-child {
   background-color: transparent;
@@ -185,24 +229,22 @@ main {
   outline: none;
   background-color: #fff;
 }
-.services .pos-rel {
-  position: relative;
+.services__info--purple {
+  background-color: #4b0d7e;
+  padding: 30px;
 }
-.services #bkg-img {
+.services__info--relative {
+  position: relative;
   background-image: url("../img/wacom-painter.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.services .purple-info-container {
-  background-color: #4b0d7e;
-  padding: 30px;
-}
-.services .grey-info-container {
+.services__info--grey {
   background-color: #4d4d4d;
   padding: 30px;
 }
-.services .blue-info-container {
+.services__info--blue {
   background-color: #006ace;
   padding: 30px;
 }
@@ -221,10 +263,6 @@ main {
 }
 .list__info ul li {
   padding: 5px 20px;
-  color: gray;
-}
-.list__info ul li:hover {
-  cursor: pointer;
 }
 .list__info ul .header-list {
   font-weight: bold;
@@ -234,46 +272,11 @@ main {
 }
 .list__info ul .header-list:hover {
   cursor: text;
+  text-decoration: none;
 }
 .list__info--socials {
   font-size: 35px;
   padding-left: 20px;
-}
-.list__info--socials .fa-instagram-square {
-  color: #E85E67;
-}
-.list__info--socials .fa-instagram-square:hover {
-  cursor: pointer;
-}
-.list__info--socials .fa-facebook-square {
-  color: #395693;
-}
-.list__info--socials .fa-facebook-square:hover {
-  cursor: pointer;
-}
-.list__info--socials .fa-twitter-square {
-  color: #1C9CEA;
-}
-.list__info--socials .fa-twitter-square:hover {
-  cursor: pointer;
-}
-.list__info--socials .fa-youtube-square {
-  color: #F60002;
-}
-.list__info--socials .fa-youtube-square:hover {
-  cursor: pointer;
-}
-.list__info--socials .fa-pinterest-square {
-  color: #B7081B;
-}
-.list__info--socials .fa-pinterest-square:hover {
-  cursor: pointer;
-}
-.list__info--socials .fa-rss-square {
-  color: #F6C500;
-}
-.list__info--socials .fa-rss-square:hover {
-  cursor: pointer;
 }
 
 .copyright {
@@ -300,10 +303,4 @@ main {
 .copyright__info span {
   color: #fff;
   margin: 0 10px;
-}
-
-@media all and (max-width: 768px) {
-  .navbar {
-    display: none;
-  }
 }

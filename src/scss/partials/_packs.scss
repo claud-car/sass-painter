@@ -32,27 +32,28 @@
             outline: none;
             background-color: #fff;
         }
-    }
-    .pos-rel{
-        position: relative;
-    }
-    #bkg-img{
-        background-image: url('../img/wacom-painter.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        // filter: blur(3px);
-    }
-    .purple-info-container{
-        background-color: $color-purple;
-        padding: 30px;
-    }
-    .grey-info-container{
-        background-color: $color-grey;
-        padding: 30px;
-    }
-    .blue-info-container{
-        background-color: $color-blue;
-        padding: 30px;
+
+        &--purple{
+            background-color: $color-purple;
+            padding: 30px;
+        }
+
+        &--relative{
+            position: relative;
+            background-image: url('../img/wacom-painter.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        &--grey{
+            background-color: $color-grey;
+            padding: 30px;
+        }
+
+        &--blue{
+            background-color: $color-blue;
+            padding: 30px;
+        }
     }
 }
