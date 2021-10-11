@@ -5,7 +5,7 @@
         float: left;
         width: 50%;
         height: 300px;
-        color: #fff;
+        @include color(#fff);
         img{
             width: 100%;
             height: 300px;
@@ -30,11 +30,12 @@
             margin: 25px 0;
             padding: 10px 25px;
             outline: none;
-            background-color: #fff;
+            @include bg-color(#fff);
+
         }
 
         &--purple{
-            background-color: $color-purple;
+            @include bg-color(#4b0d7e);
             padding: 30px;
         }
 
@@ -47,12 +48,13 @@
         }
 
         &--grey{
-            background-color: $color-grey;
+            @include bg-color(rgb(77, 77, 77));
+
             padding: 30px;
         }
 
         &--blue{
-            background-color: $color-blue;
+            @include bg-color(rgb(0, 106, 206));
             padding: 30px;
         }
     }

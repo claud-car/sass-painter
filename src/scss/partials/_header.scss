@@ -6,27 +6,28 @@
         height: 50px;
         align-items: center;
 
-        button{
-            background-color: black;
-            margin: 0 10px;
-            color: $color-lightgrey;
-            font-size: 16px;
-
-            i{
-                color: rgb(0, 183, 255);
-                font-size: 14px;
-            }
-        }
-
         select{
             margin-left: 10px;
             padding-right: 8px;
         }
     }
 
+    &__buttons{
+        @include bg-color(#000);
+        margin: 0 10px;
+        @include color(grey);
+        font-size: 16px;
+
+        i{
+            @include color(rgb(0, 183, 255));
+            font-size: 14px;
+        }
+    }
+
+
     &__down{
         display: flex;
-        color: #FFF;
+        @include color(#FFF);
         padding: 10px;
 
         img{
@@ -40,14 +41,11 @@
             flex-direction: row;
             align-items: center;
             justify-content: space-around;
-
-            li{
                 
                 i{
-                    color: $color-lightgrey;
+                    @include color(lightgrey);
                     font-size: 14px;
                 }
-            }
         }
     }
 }

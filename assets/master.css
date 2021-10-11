@@ -19,14 +19,6 @@ main {
   background-color: lightgray;
 }
 
-.clr-grey {
-  color: #4d4d4d;
-}
-
-.clr-lightgrey {
-  color: grey;
-}
-
 button {
   cursor: pointer;
 }
@@ -42,49 +34,25 @@ i {
   cursor: pointer;
 }
 
-.fa-instagram-square {
-  color: #E85E67;
-}
-
-.fa-facebook-square {
-  color: #395693;
-}
-
-.fa-twitter-square {
-  color: #1C9CEA;
-}
-
-.fa-youtube-square {
-  color: #F60002;
-}
-
-.fa-pinterest-square {
-  color: #B7081B;
-}
-
-.fa-rss-square {
-  color: #F6C500;
-}
-
 .navbar__top {
   display: flex;
   justify-content: flex-end;
   height: 50px;
   align-items: center;
 }
-.navbar__top button {
-  background-color: black;
+.navbar__top select {
+  margin-left: 10px;
+  padding-right: 8px;
+}
+.navbar__buttons {
+  background-color: #000;
   margin: 0 10px;
   color: grey;
   font-size: 16px;
 }
-.navbar__top button i {
+.navbar__buttons i {
   color: #00b7ff;
   font-size: 14px;
-}
-.navbar__top select {
-  margin-left: 10px;
-  padding-right: 8px;
 }
 .navbar__down {
   display: flex;
@@ -102,8 +70,8 @@ i {
   align-items: center;
   justify-content: space-around;
 }
-.navbar__down ul li i {
-  color: grey;
+.navbar__down ul i {
+  color: lightgrey;
   font-size: 14px;
 }
 
@@ -142,8 +110,8 @@ i {
   padding: 10px 25px;
   border: 1px solid black;
   margin-right: 20px;
-  background-color: black;
-  color: white;
+  background-color: #000;
+  color: #fff;
 }
 .jumbo__content button:last-child {
   background-color: transparent;
@@ -274,10 +242,6 @@ i {
   cursor: text;
   text-decoration: none;
 }
-.list__info--socials {
-  font-size: 35px;
-  padding-left: 20px;
-}
 
 .copyright {
   padding: 0 15%;
@@ -298,9 +262,32 @@ i {
 .copyright__info a {
   margin: 0 10px;
   text-decoration: none;
-  color: grey;
+  color: lightgrey;
 }
 .copyright__info span {
   color: #fff;
   margin: 0 10px;
+}
+
+.footer__social-icon-wrapper {
+  font-size: 35px;
+  padding-left: 20px;
+}
+.footer__social-icon-wrapper--instagram {
+  color: #E85E67;
+}
+.footer__social-icon-wrapper--facebook {
+  color: #395693;
+}
+.footer__social-icon-wrapper--twitter {
+  color: #1C9CEA;
+}
+.footer__social-icon-wrapper--youtube {
+  color: #F60002;
+}
+.footer__social-icon-wrapper--pinterest {
+  color: #B7081B;
+}
+.footer__social-icon-wrapper--rss {
+  color: #F6C500;
 }

@@ -1,0 +1,28 @@
+.footer__social-icon-wrapper{
+    font-size: 35px;
+    padding-left: 20px;
+
+    &--instagram{
+        @include color(#E85E67);
+    }
+
+    &--facebook{
+        @include color(#395693);
+    }
+
+    &--twitter{
+        @include color(#1C9CEA);
+    }
+
+    &--youtube{
+        @include color(#F60002);
+    }
+
+    &--pinterest{
+        @include color(#B7081B);
+    }
+
+    &--rss{
+        @include color(#F6C500);
+    }
+}

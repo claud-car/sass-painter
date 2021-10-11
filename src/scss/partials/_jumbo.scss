@@ -23,7 +23,7 @@
 
         span{
             margin: 20px 0;
-            color: rgb(197, 21, 109);
+            @include color(rgb(197, 21, 109));
             font-weight: bold;
             font-style: italic;
 
@@ -37,12 +37,12 @@
             padding: 10px 25px;
             border: 1px solid black;
             margin-right:20px;
-            background-color: black;
-            color: white;
+            @include bg-color(#000);
+            @include color(#fff);
             
             &:last-child{
-                background-color: transparent;
-                color: #000;
+                @include bg-color(transparent);
+                @include color(#000);
                 border-width: 2px;
             }
         }

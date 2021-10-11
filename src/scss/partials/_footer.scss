@@ -14,16 +14,12 @@
                 font-weight: bold;
                 font-size: 18px;
                 padding-bottom: 10px;
-                color: #000;
+                @include color(#000);
                 &:hover{
                     cursor:text;
                     text-decoration: none;
                 }
             }
-        }
-        &--socials{
-            font-size: 35px;
-            padding-left: 20px;
         }
     }
 }
@@ -32,7 +28,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(36, 36, 36);
+    @include bg-color(rgb(36, 36, 36));
     padding-top: 15px;
     padding-bottom: 15px;
     img{
@@ -44,11 +40,13 @@
         a{
             margin: 0 10px;
             text-decoration: none;
-            color: $color-lightgrey;    
+            @include color(lightgrey);   
         }
         span{
-            color: #fff;
+            @include color(#fff);
             margin: 0 10px;
         }
     }
 }
+
+@import '_icons-wrapper.scss';

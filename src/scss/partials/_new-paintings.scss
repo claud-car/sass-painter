@@ -15,7 +15,8 @@
             width: 90%;
             float: left;
             margin: 0 2%;
-            background-color: #fff;
+            @include bg-color(#fff);
+
 
             img{
                 width: 100%;
@@ -26,12 +27,12 @@
                 padding: 15px 15px;
 
                 label{
-                    color:rgb(0, 183, 255);
+                    @include color(rgb(0, 183, 255));
                     font-weight: bold;
                 }
 
                 span{
-                    color: #000;
+                    @include color(#000);
                     font-weight: bold;
                 }
 
@@ -41,7 +42,7 @@
                 }
 
                 a{
-                    color: rgb(0, 183, 255);
+                    @include color(rgb(0, 183, 255));
                     text-decoration: none;
                 }
             }
