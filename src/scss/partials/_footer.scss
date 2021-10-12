@@ -1,61 +1,92 @@
-.footer-info{
-    padding: $margin-page;
-    height: 360px;
-    @include bg-color(rgb(231, 218, 218));
-     
-    &__list{
-        float: left;
-        width: 25%;  
-    }
-
-    &__list-item{
-        list-style: none;
-        margin: 50px 0;
-
-        &--header{
-            font-weight: bold;
-            font-size: 18px;
-            padding-bottom: 10px;
-            @include color(#000);
-            &:hover{
-                cursor:text;
-                text-decoration: none;
+.footer{
+    &-info{
+        padding: $margin-page;
+        height: 360px;
+        @include bg-color(rgb(231, 218, 218));
+         
+        &__list{
+            float: left;
+            width: 25%;  
+        }
+    
+        &__list-item{
+            list-style: none;
+            margin: 50px 0;
+    
+            &--title{
+                font-weight: bold;
+                font-size: 18px;
+                padding-bottom: 10px;
+                @include color(#000);
+                &:hover{
+                    cursor:text;
+                    text-decoration: none;
+                }
+    
             }
-
         }
 
-        &--link{
+        &__list-link{
             padding: 5px 0;
         }
     }
-}
-.footer__copyright{
-    padding: $margin-page;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    @include bg-color(rgb(36, 36, 36));
-    padding-top: 15px;
-    padding-bottom: 15px;
 
-    &--img{
-        height: 50px;
+    &__social-icon-wrapper{
+        font-size: 35px;
         padding-left: 20px;
+    
+        &--instagram{
+            @include color(#E85E67);
+        }
+    
+        &--facebook{
+            @include color(#395693);
+        }
+    
+        &--twitter{
+            @include color(#1C9CEA);
+        }
+    
+        &--youtube{
+            @include color(#F60002);
+        }
+    
+        &--pinterest{
+            @include color(#B7081B);
+        }
+    
+        &--rss{
+            @include color(#F6C500);
+        }
     }
 
-    &-info{
-        font-size: 14px;
+    
+    &__copyright{
+        padding: $margin-page;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @include bg-color(rgb(36, 36, 36));
+        padding-top: 15px;
+        padding-bottom: 15px;
+    
+        &-img{
+            height: 50px;
+            padding-left: 20px;
+        }
+    
+        &-info{
+            font-size: 14px;
+        }
 
-        &--link{
+        &-link{
             margin: 0 10px;
             text-decoration: none;
             @include color(lightgrey);   
         }
-        &--text{
+        &-text{
             @include color(#fff);
             margin: 0 10px;
         }
     }
 }
-
-@import '_icons-wrapper.scss';

@@ -32,17 +32,17 @@
             font-weight: bold;
         }
 
-        &--title{
+        &-title{
             @include color(#000);
             font-weight: bold;
         }
 
-        &--text{
+        &-text{
             font-size: 17px;
             text-align: left;
         }
 
-        &--link{
+        &-link{
             @include color(rgb(0, 183, 255));
             text-decoration: none;
         }

@@ -7,29 +7,29 @@
         height: 300px;
         @include color(#fff);
 
-        &--img{
+        &-img{
             width: 100%;
             height: 300px;
         }
 
-        .img-absolute{
+        &--img-absolute{
             position: absolute;
             top :50%; 
             left: 50%; 
             transform: translate(-50%, -50%);
             z-index: 2;
         }
-        &--title{
+        &-title{
             font-size: 25px;
             margin: 15px 0;
             margin-top: 30px;
         }
 
-        &--content{
+        &-content{
             font-size: 20px;
         }
 
-        &--button{
+        &-button{
             display: block;
             margin: 25px 0;
             padding: 10px 25px;
