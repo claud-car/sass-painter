@@ -11,27 +11,7 @@
         display: flex;
         justify-content:center;
         flex-direction: column;
-
-        img{
-            width: 250px;
-        }
-
-        p{
-            margin:20px 0 ;
-            font-size: 20px;
-        }
-
-        span{
-            margin: 20px 0;
-            @include color(rgb(197, 21, 109));
-            font-weight: bold;
-            font-style: italic;
-
-            label{
-                font-weight: normal;
-            }
-        }
-
+        
         button{
             font-size: 16px;
             padding: 10px 25px;
@@ -39,13 +19,32 @@
             margin-right:20px;
             @include bg-color(#000);
             @include color(#fff);
-            
+    
             &:last-child{
                 @include bg-color(transparent);
                 @include color(#000);
                 border-width: 2px;
             }
         }
-        
+    }
+
+    &__img-painter{
+        width: 250px;
+    }
+
+    &__text{
+        margin:20px 0 ;
+        font-size: 20px;
+    }
+
+    &__text-offer{
+        margin: 20px 0;
+        @include color(rgb(197, 21, 109));
+        font-weight: bold;
+        font-style: italic;
+
+        &--label{
+            font-weight: normal;
+        }
     }
 }

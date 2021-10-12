@@ -6,16 +6,16 @@
 }
 
 header{
-    background-color: black;
+    @include bg-color(#000);
     padding: $margin-page;
 
     @media all and (max-width:768px){
-        background-color: rgba(253, 186, 62, 0.849);   
+        @include bg-color(rgba(253, 186, 62, 0.849));
     }
 }
 
 main{
-    background-color: lightgray;
+    @include bg-color(lightgray);
 }
 
 button{

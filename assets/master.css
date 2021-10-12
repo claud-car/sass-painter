@@ -6,7 +6,7 @@
 }
 
 header {
-  background-color: black;
+  background-color: #000;
   padding: 0 15%;
 }
 @media all and (max-width: 768px) {
@@ -40,29 +40,29 @@ i {
   height: 50px;
   align-items: center;
 }
-.navbar__top select {
-  margin-left: 10px;
-  padding-right: 8px;
-}
 .navbar__buttons {
   background-color: #000;
   margin: 0 10px;
   color: grey;
   font-size: 16px;
 }
-.navbar__buttons i {
+.navbar__buttons--icon {
   color: #00b7ff;
   font-size: 14px;
+}
+.navbar__select {
+  margin-left: 10px;
+  padding-right: 8px;
 }
 .navbar__down {
   display: flex;
   color: #FFF;
   padding: 10px;
 }
-.navbar__down img {
+.navbar__logo {
   margin-right: 20px;
 }
-.navbar__down ul {
+.navbar__list {
   width: 80%;
   list-style: none;
   display: flex;
@@ -70,8 +70,8 @@ i {
   align-items: center;
   justify-content: space-around;
 }
-.navbar__down ul i {
-  color: lightgrey;
+.navbar__list--icon {
+  color: grey;
   font-size: 14px;
 }
 
@@ -89,22 +89,6 @@ i {
   justify-content: center;
   flex-direction: column;
 }
-.jumbo__content img {
-  width: 250px;
-}
-.jumbo__content p {
-  margin: 20px 0;
-  font-size: 20px;
-}
-.jumbo__content span {
-  margin: 20px 0;
-  color: #c5156d;
-  font-weight: bold;
-  font-style: italic;
-}
-.jumbo__content span label {
-  font-weight: normal;
-}
 .jumbo__content button {
   font-size: 16px;
   padding: 10px 25px;
@@ -118,12 +102,28 @@ i {
   color: #000;
   border-width: 2px;
 }
+.jumbo__img-painter {
+  width: 250px;
+}
+.jumbo__text {
+  margin: 20px 0;
+  font-size: 20px;
+}
+.jumbo__text-offer {
+  margin: 20px 0;
+  color: #c5156d;
+  font-weight: bold;
+  font-style: italic;
+}
+.jumbo__text-offer--label {
+  font-weight: normal;
+}
 
 .paintings {
   padding: 0 15%;
   margin-bottom: 50px;
 }
-.paintings p {
+.paintings__title {
   text-align: center;
   padding: 30px 0;
   font-size: 30px;
@@ -131,32 +131,32 @@ i {
 .paintings__offers {
   display: flex;
 }
-.paintings__offers--new {
+.paintings__offer {
   width: 90%;
   float: left;
   margin: 0 2%;
   background-color: #fff;
 }
-.paintings__offers--new img {
+.paintings__offer-image {
   width: 100%;
   height: 150px;
 }
-.paintings__offers--new .text-info {
+.paintings__text-info {
   padding: 15px 15px;
 }
-.paintings__offers--new .text-info label {
+.paintings__text-info--label {
   color: #00b7ff;
   font-weight: bold;
 }
-.paintings__offers--new .text-info span {
+.paintings__text-info--title {
   color: #000;
   font-weight: bold;
 }
-.paintings__offers--new .text-info p {
+.paintings__text-info--text {
   font-size: 17px;
   text-align: left;
 }
-.paintings__offers--new .text-info a {
+.paintings__text-info--link {
   color: #00b7ff;
   text-decoration: none;
 }
@@ -171,7 +171,7 @@ i {
   height: 300px;
   color: #fff;
 }
-.services__info img {
+.services__info--img {
   width: 100%;
   height: 300px;
 }
@@ -182,15 +182,15 @@ i {
   transform: translate(-50%, -50%);
   z-index: 2;
 }
-.services__info p {
+.services__info--title {
   font-size: 25px;
   margin: 15px 0;
   margin-top: 30px;
 }
-.services__info span {
+.services__info--content {
   font-size: 20px;
 }
-.services__info button {
+.services__info--button {
   display: block;
   margin: 25px 0;
   padding: 10px 25px;
@@ -217,33 +217,34 @@ i {
   padding: 30px;
 }
 
-.list {
+.footer-info {
   padding: 0 15%;
   height: 360px;
+  background-color: #e7dada;
 }
-.list__info {
+.footer-info__list {
   float: left;
   width: 25%;
 }
-.list__info ul {
+.footer-info__list-item {
   list-style: none;
   margin: 50px 0;
 }
-.list__info ul li {
-  padding: 5px 20px;
-}
-.list__info ul .header-list {
+.footer-info__list-item--header {
   font-weight: bold;
   font-size: 18px;
   padding-bottom: 10px;
   color: #000;
 }
-.list__info ul .header-list:hover {
+.footer-info__list-item--header:hover {
   cursor: text;
   text-decoration: none;
 }
+.footer-info__list-item--link {
+  padding: 5px 0;
+}
 
-.copyright {
+.footer__copyright {
   padding: 0 15%;
   display: flex;
   justify-content: space-between;
@@ -252,19 +253,19 @@ i {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-.copyright img {
+.footer__copyright--img {
   height: 50px;
   padding-left: 20px;
 }
-.copyright__info {
+.footer__copyright-info {
   font-size: 14px;
 }
-.copyright__info a {
+.footer__copyright-info--link {
   margin: 0 10px;
   text-decoration: none;
   color: lightgrey;
 }
-.copyright__info span {
+.footer__copyright-info--text {
   color: #fff;
   margin: 0 10px;
 }
