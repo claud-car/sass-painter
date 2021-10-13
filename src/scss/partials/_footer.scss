@@ -1,11 +1,21 @@
-.footer-info{
-    padding: $margin-page;
-    height: 360px;
-    @include bg-color(rgb(231, 218, 218));
-        
-    &__list{
+
+.footer{
+
+    &__info{
+        padding: $margin-page;
+        height: 360px;
+        @include bg-color(rgb(231, 218, 218));
+    }
+
+    &__info-list{
         float: left;
         width: 25%;  
+    }
+
+    &__list-item{
+        list-style: none;
+        margin: 50px 0;
+
     }
 
     &__list-title{
@@ -17,13 +27,6 @@
             cursor:text;
             text-decoration: none;
         }
-
-    }
-
-
-    &__list-item{
-        list-style: none;
-        margin: 50px 0;
 
     }
 
@@ -59,32 +62,34 @@
             @include color(#F6C500);
         }
     }
-}
 
-.footer-copyright{
-    padding: $margin-page;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    @include bg-color(rgb(36, 36, 36));
-    padding-top: 15px;
-    padding-bottom: 15px;
 
-    &__img{
+    
+    &__copyright{
+        padding: $margin-page;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @include bg-color(rgb(36, 36, 36));
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+        
+    &__copyright-img{
         height: 50px;
         padding-left: 20px;
     }
 
-    &__info{
+    &__copyright-info{
         font-size: 14px;
     }
 
-    &__link{
+    &__copyright-link{
         margin: 0 10px;
         text-decoration: none;
         @include color(lightgrey);   
     }
-    &__text{
+    &__copyright-text{
         @include color(lightgrey);
         margin: 0 10px;
     }
