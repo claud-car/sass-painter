@@ -6,10 +6,29 @@
 }
 
 header{
-    background-color: black;
+    @include bg-color(#000);
     padding: $margin-page;
+
+    @media all and (max-width:768px){
+        @include bg-color(rgba(253, 186, 62, 0.849));
+    }
 }
 
 main{
-    background-color: lightgray;
+    @include bg-color(lightgray);
+}
+
+button{
+    cursor: pointer;
+}
+
+li{
+    cursor: pointer;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+i{
+    cursor: pointer;
 }

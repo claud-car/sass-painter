@@ -13,29 +13,29 @@
         <div class="container">
             <div class="navbar">
                 <div class="navbar__top">
-                    <button><i class="fas fa-phone"></i> 1-877-582-6735</button>
-                    <button><i class="fas fa-comment-alt"></i> Chat</button>
-                    <button><i class="fas fa-user"></i> Sign in</button>
-                    <button><i class="fas fa-shopping-cart"></i> Cart</button>
-                    <select name="" id="">
+                    <button class="navbar__buttons"><i class="fas fa-phone navbar__buttons--icon"></i> 1-877-582-6735</button>
+                    <button class="navbar__buttons"><i class="fas fa-comment-alt navbar__buttons--icon"></i> Chat</button>
+                    <button class="navbar__buttons"><i class="fas fa-user navbar__buttons--icon"></i> Sign in</button>
+                    <button class="navbar__buttons"><i class="fas fa-shopping-cart navbar__buttons--icon"></i> Cart</button>
+                    <select class="navbar__select" name="" id="">
                         <option value="">English</option>
                         <option value="">Italiano</option>
                         <option value="">Spanish</option>
                     </select>
                 </div>
                 <div class="navbar__down">
-                    <div class="logo">
+                    <div class="navbar__logo">
                         <img src="./img/logo_painter.png" alt="">
                     </div>
-                    <ul>
-                        <li>Products <i class="fas fa-chevron-down"></i></li>
-                        <li>Brushes <i class="fas fa-chevron-down"></i></li>
-                        <li>Wacom Tablets <i class="fas fa-chevron-down"></i></li>
-                        <li>Special Offers <i class="fas fa-chevron-down"></i></li>
-                        <li>Free Trials <i class="fas fa-chevron-down"></i></li>
-                        <li>Business <i class="fas fa-chevron-down"></i></li>
-                        <li>Support <i class="fas fa-chevron-down"></i></li>
-                        <li>Learning <i class="fas fa-chevron-down"></i></li>
+                    <ul class="navbar__list">
+                        <li>Products <i class="fas fa-chevron-down navbar__list--icon"></i></li>
+                        <li>Brushes <i class="fas fa-chevron-down navbar__list--icon"></i></li>
+                        <li>Wacom Tablets <i class="fas fa-chevron-down navbar__list--icon"></i></li>
+                        <li>Special Offers <i class="fas fa-chevron-down navbar__list--icon"></i></li>
+                        <li>Free Trials <i class="fas fa-chevron-down navbar__list--icon"></i></li>
+                        <li>Business <i class="fas fa-chevron-down navbar__list--icon"></i></li>
+                        <li>Support <i class="fas fa-chevron-down navbar__list--icon"></i></li>
+                        <li>Learning <i class="fas fa-chevron-down navbar__list--icon"></i></li>
                     </ul>
                 </div>
             </div>
@@ -44,147 +44,147 @@
     <main>
         <section class="jumbo" >
                 <div class="jumbo__content">
-                    <img src="img/painter-2021-wm-black.png" alt="">
-                    <p>The most realistic painting experience you'll find hard to resist</p>
-                    <span>limited-time offer <br><label>Get Signature Style Brush Pack Bundle FREE (worth $179.99)</label></span>
-                    <div class="jumbo__content--buttons">
-                        <button>LEARN MORE</button><button>DOWNLOAD TRIAL</button>
+                    <img class="jumbo__img-painter" src="img/painter-2021-wm-black.png" alt="">
+                    <p class="jumbo__text">The most realistic painting experience you'll find hard to resist</p>
+                    <span class="jumbo__text-offer">limited-time offer <br><label class="jumbo__text-offer--label">Get Signature Style Brush Pack Bundle FREE (worth $179.99)</label></span>
+                    <div>
+                        <button class="jumbo__button">LEARN MORE</button>
+                        <button class="jumbo__button jumbo__button--download">DOWNLOAD TRIAL</button>
                     </div>
                 </div>
         </section>
         <section class="learn-more">
             <div class="paintings">
-                <p>More painting possibilities</p>
+                <p class="paintings__title">More painting possibilities</p>
                 <div class="paintings__offers">
-                    <div class="paintings__offers--new">
-                        <img src="./img/ptr-module.jpg" alt="">
-                        <div class="text-info">
-                            <label>NEW <span>Painter Essentials 8</span></label>
-                            <p>the best affordable painting software for beginners</p>
-                            <a href="">Learn more</a>
+                    <div class="paintings__offer">
+                        <img class="paintings__offer-image" src="./img/ptr-module.jpg" alt="">
+                        <div class="paintings__text-info">
+                            <label class="paintings__text-info--label">NEW <span class="paintings__text-title">Painter Essentials 8</span></label>
+                            <p class="paintings__text-content">the best affordable painting software for beginners</p>
+                            <a class="paintings__text-link" href="">Learn more</a>
                         </div>
                     </div>
-                    <div class="paintings__offers--new">
-                        <img src="./img/particleshop-module.jpg" alt="">
-                        <div class="text-info">
-                            <span>ParticleShop</span>
-                            <p>Powerful Adobe Photoshop brush plugin powered by Painter</p>
-                            <a href="">Learn more</a>
+                    <div class="paintings__offer">
+                        <img class="paintings__offer-image" src="./img/particleshop-module.jpg" alt="">
+                        <div class="paintings__text-info">
+                            <span class="paintings__text-title">ParticleShop</span>
+                            <p class="paintings__text-content">Powerful Adobe Photoshop brush plugin powered by Painter</p>
+                            <a class="paintings__text-link" href="">Learn more</a>
                         </div>
                     </div>
-                    <div class="paintings__offers--new">
-                        <img src="./img/brush-pack-module.jpg" alt="">
-                        <div class="text-info">
-                            <span>Brush Pack</span>
-                            <p>Diverse add-on packs to embellish photo composites,
+                    <div class="paintings__offer">
+                        <img class="paintings__offer-image" src="./img/brush-pack-module.jpg" alt="">
+                        <div class="paintings__text-info">
+                            <span class="paintings__text-title">Brush Pack</span>
+                            <p class="paintings__text-content">Diverse add-on packs to embellish photo composites,
                                 graphic designs and paintings
                             </p>
-                            <a href="">Learn more</a>
+                            <a class="paintings__text-link" href="">Learn more</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <section class="services">
-            <div class="services__info purple-info-container">
-                <p>Wacom + Painter 2021</p>
-                <span>Satisfy all your digital painting needs with the power 
+            <div class="services__info services__info--purple">
+                <p class="services__info-title">Wacom + Painter 2021</p>
+                <span class="services__info-content">Satisfy all your digital painting needs with the power 
                     and precision of these award-winning bundles
                 </span>
-                <button>LEARN MORE</button>
+                <button class="services__info-button">LEARN MORE</button>
             </div>
-            <div class="services__info pos-rel" id="bkg-img">
-                <img class="img-absolute" src="img/wacom.png" alt="">
+            <div class="services__info services__info--relative">
+                <img class="services__info-img services__info-img--absolute" src="img/wacom.png" alt="">
             </div>
             <div class="services__info">
-                <img src="img/painter-master.jpg" alt="">
+                <img class="services__info-img" src="img/painter-master.jpg" alt="">
             </div>
-            <div class="services__info grey-info-container">
-                <p>Painter Masters</p>
-                <span>Gain inspiration and knowledge from professional artists who have mastered Painter,
+            <div class="services__info services__info--grey">
+                <p class="services__info-title">Painter Masters</p>
+                <span class="services__info-content">Gain inspiration and knowledge from professional artists who have mastered Painter,
                     and excel in their craft.
                 </span>
-                <button>LEARN MORE</button>
+                <button class="services__info-button">LEARN MORE</button>
             </div>
-            <div class="services__info blue-info-container">
-                <p>Business & Education</p>
-                <span>Save money on our award-winning painting software
+            <div class="services__info services__info--blue">
+                <p class="services__info-title">Business & Education</p>
+                <span class="services__info-content">Save money on our award-winning painting software
                     thanks to affordable and flexible licensing options.
                 </span>
-                <button>LEARN MORE</button>
+                <button class="services__info-button">LEARN MORE</button>
 
             </div>
             <div class="services__info">
-                <img src="img/business-education.jpg" alt="">
+                <img class="services__info-img" src="img/business-education.jpg" alt="">
             </div>
         </section>
     </main>
-    <footer>
-        <div class="list">
-            <div class="list__info">
-                <ul>
-                    <li class="header-list">Products</li>
-                    <li>Corel Painter</li>
-                    <li>ParticleShop</li>
-                    <li>Painter Essentials</li>
-                    <li>Special Offers</li>
-                    <li>Free Trials</li>
-                    <li>All products</li>
+    <footer class="footer">
+        <div class="footer__info">
+            <div class="footer__info-list">
+                <ul class="footer__list-item">
+                    <h3 class="footer__list-title">Products</h3>
+                    <li class="footer__list-link">Corel Painter</li>
+                    <li class="footer__list-link">ParticleShop</li>
+                    <li class="footer__list-link">Painter Essentials</li>
+                    <li class="footer__list-link">Special Offers</li>
+                    <li class="footer__list-link">Free Trials</li>
+                    <li class="footer__list-link">All products</li>
                 </ul>
             </div>
-            <div class="list__info">
-                <ul>
-                    <li class="header-list">Quick Links</li>
-                    <li>Licensing</li>
-                    <li>Tutorial & Tips</li>
-                    <li>Webinars</li>
-                    <li>The Painter Factory</li>
-                    <li>Discovery Center</li>
-                    <li>Beta Programs</li>
+            <div class="footer__info-list">
+                <ul class="footer__list-item">
+                    <h3 class="footer__list-title">Quick Links</h3>
+                    <li class="footer__list-link">Licensing</li>
+                    <li class="footer__list-link">Tutorial & Tips</li>
+                    <li class="footer__list-link">Webinars</li>
+                    <li class="footer__list-link">The Painter Factory</li>
+                    <li class="footer__list-link">Discovery Center</li>
+                    <li class="footer__list-link">Beta Programs</li>
                 </ul>
             </div>
-            <div class="list__info">
-                <ul>
-                    <li class="header-list">Support</li>
-                    <li>Register your product</li>
-                    <li>Patches & Updates</li>
-                    <li>Knowledgebase</li>
-                    <li>Uninstall instructions</li>
-                    <li>Contact us</li>
+            <div class="footer__info-list">
+                <ul class="footer__list-item">
+                    <h3 class="footer__list-title">Support</h3>
+                    <li class="footer__list-link">Register your product</li>
+                    <li class="footer__list-link">Patches & Updates</li>
+                    <li class="footer__list-link">Knowledgebase</li>
+                    <li class="footer__list-link">Uninstall instructions</li>
+                    <li class="footer__list-link">Contact us</li>
                 </ul>
             </div>
-            <div class="list__info">
-                <ul>
-                    <li class="header-list">About Corel</li>
-                    <li>Company information</li>
-                    <li>Newsroom</li>
-                    <li>Carrers</li>
-                    <li>Partner Program</li>
-                    <li>Legal Information</li>
-                    <li>EULA</li>
+            <div class="footer__info-list">
+                <ul class="footer__list-item">
+                    <h3 class="footer__list-title">About Corel</h3>
+                    <li class="footer__list-link">Company information</li>
+                    <li class="footer__list-link">Newsroom</li>
+                    <li class="footer__list-link">Carrers</li>
+                    <li class="footer__list-link">Partner Program</li>
+                    <li class="footer__list-link">Legal Information</li>
+                    <li class="footer__list-link">EULA</li>
                 </ul>  
-                <div class="list__info--socials">
-                    <i class="fab fa-instagram-square"></i>
-                    <i class="fab fa-facebook-square"></i>
-                    <i class="fab fa-twitter-square"></i>
-                    <i class="fab fa-youtube-square"></i>
-                    <i class="fab fa-pinterest-square"></i>
-                    <i class="fas fa-rss-square"></i>
-                </div>
+                <ul class="footer__social-list">
+                    <li><i class="fab fa-facebook-square footer__social-icon footer__social-icon--facebook"></i></li>
+                    <li><i class="fab fa-twitter-square footer__social-icon footer__social-icon--twitter"></i></li>
+                    <li><i class="fab fa-youtube-square footer__social-icon footer__social-icon--youtube"></i></li>
+                    <li><i class="fab fa-pinterest-square footer__social-icon footer__social-icon--pinterest"></i></li>
+                    <li><i class="fas fa-rss-square footer__social-icon footer__social-icon--rss"></i></li> 
+                </ul>
             </div>
 
         </div>
-        <div class="copyright">
-            <div class="copyright__logo">
-                <img src="img/corelAdvantage.png" alt="">
-                <img src="img/logo-bbb.png" alt="">
-                <img src="img/101.png" alt="">
+        <div class="footer__copyright">
+            <div>
+                <img class="footer__copyright-img" src="img/corelAdvantage.png" alt="">
+                <img class="footer__copyright-img" src="img/logo-bbb.png" alt="">
+                <img class="footer__copyright-img" src="img/101.png" alt="">
             </div>
-            <div class="copyright__info">
-                <a href="">Terms of Use</a>
-                <a href="Privacy">Privacy</a>
-                <a href="Cookies">Cookies</a>
-                <span>Copyright © 2021 Corel Corporation. All rights reserved.</span>
+            <div class="footer__copyright-info">
+                <a class="footer__copyright-link" href="">Terms of Use</a>
+                <a class="footer__copyright-link" href="Privacy">Privacy</a>
+                <a class="footer__copyright-link" href="Cookies">Cookies</a>
+                <span class="footer__copyright-text">Copyright © 2021 Corel Corporation. All rights reserved.</span>
             </div>
         </div>
     </footer>
