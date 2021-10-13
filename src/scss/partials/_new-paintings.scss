@@ -31,21 +31,22 @@
             @include color(rgb(0, 183, 255));
             font-weight: bold;
         }
-
-        &-title{
-            @include color(#000);
-            font-weight: bold;
-        }
-
-        &-text{
-            font-size: 17px;
-            text-align: left;
-        }
-
-        &-link{
-            @include color(rgb(0, 183, 255));
-            text-decoration: none;
-        }
     }
+
+    &__text-title{
+        @include color(#000);
+        font-weight: bold;
+    }
+
+    &__text-text{
+        font-size: 17px;
+        text-align: left;
+    }
+
+    &__text-link{
+        @include color(rgb(0, 183, 255));
+        text-decoration: none;
+    }
+
 
 }

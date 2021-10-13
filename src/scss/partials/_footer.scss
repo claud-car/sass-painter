@@ -1,34 +1,34 @@
-.footer{
-    &-info{
-        padding: $margin-page;
-        height: 360px;
-        @include bg-color(rgb(231, 218, 218));
-         
-        &__list{
-            float: left;
-            width: 25%;  
-        }
-    
-        &__list-item{
-            list-style: none;
-            margin: 50px 0;
-    
-            &--title{
-                font-weight: bold;
-                font-size: 18px;
-                padding-bottom: 10px;
-                @include color(#000);
-                &:hover{
-                    cursor:text;
-                    text-decoration: none;
-                }
-    
-            }
+.footer-info{
+    padding: $margin-page;
+    height: 360px;
+    @include bg-color(rgb(231, 218, 218));
+        
+    &__list{
+        float: left;
+        width: 25%;  
+    }
+
+    &__list-title{
+        font-weight: bold;
+        font-size: 18px;
+        padding-bottom: 10px;
+        @include color(#000);
+        &:hover{
+            cursor:text;
+            text-decoration: none;
         }
 
-        &__list-link{
-            padding: 5px 0;
-        }
+    }
+
+
+    &__list-item{
+        list-style: none;
+        margin: 50px 0;
+
+    }
+
+    &__list-link{
+        padding: 5px 0;
     }
 
     &__social-icon-wrapper{
@@ -59,34 +59,33 @@
             @include color(#F6C500);
         }
     }
+}
 
-    
-    &__copyright{
-        padding: $margin-page;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        @include bg-color(rgb(36, 36, 36));
-        padding-top: 15px;
-        padding-bottom: 15px;
-    
-        &-img{
-            height: 50px;
-            padding-left: 20px;
-        }
-    
-        &-info{
-            font-size: 14px;
-        }
+.footer-copyright{
+    padding: $margin-page;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include bg-color(rgb(36, 36, 36));
+    padding-top: 15px;
+    padding-bottom: 15px;
 
-        &-link{
-            margin: 0 10px;
-            text-decoration: none;
-            @include color(lightgrey);   
-        }
-        &-text{
-            @include color(#fff);
-            margin: 0 10px;
-        }
+    &__img{
+        height: 50px;
+        padding-left: 20px;
+    }
+
+    &__info{
+        font-size: 14px;
+    }
+
+    &__link{
+        margin: 0 10px;
+        text-decoration: none;
+        @include color(lightgrey);   
+    }
+    &__text{
+        @include color(lightgrey);
+        margin: 0 10px;
     }
 }
