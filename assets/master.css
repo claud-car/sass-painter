@@ -243,26 +243,30 @@ i {
 .footer__list-link {
   padding: 5px 0;
 }
-.footer__social-icon-wrapper {
-  font-size: 35px;
-  padding-left: 20px;
+.footer__social-list {
+  list-style: none;
+  display: flex;
 }
-.footer__social-icon-wrapper--instagram {
+.footer__social-icon {
+  font-size: 35px;
+  padding-right: 20px;
+}
+.footer__social-icon--instagram {
   color: #E85E67;
 }
-.footer__social-icon-wrapper--facebook {
+.footer__social-icon--facebook {
   color: #395693;
 }
-.footer__social-icon-wrapper--twitter {
+.footer__social-icon--twitter {
   color: #1C9CEA;
 }
-.footer__social-icon-wrapper--youtube {
+.footer__social-icon--youtube {
   color: #F60002;
 }
-.footer__social-icon-wrapper--pinterest {
+.footer__social-icon--pinterest {
   color: #B7081B;
 }
-.footer__social-icon-wrapper--rss {
+.footer__social-icon--rss {
   color: #F6C500;
 }
 .footer__copyright {
