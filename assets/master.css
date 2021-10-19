@@ -52,7 +52,14 @@ i {
 }
 .navbar__select {
   margin-left: 10px;
-  padding-right: 8px;
+  padding: 5px 10px;
+  color: grey;
+  background-color: transparent;
+  border: 1px solid #00b7ff;
+  border-width: 2px;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: 0;
 }
 .navbar__down {
   display: flex;
